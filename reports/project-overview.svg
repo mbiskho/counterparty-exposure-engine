@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="chart-title chart-description">
+<title id="chart-title">Counterparty Exposure Engine project overview</title>
+<desc id="chart-description">White project overview and current exposure chart for 3 counterparties. Total current exposure: USD 487,400.</desc>
+<rect width="1200" height="820" fill="#ffffff"/>
+<rect x="34" y="30" width="1132" height="760" rx="24" fill="#ffffff" stroke="#e5eaf1" stroke-width="2"/>
+<rect x="66" y="64" width="48" height="48" rx="14" fill="#eaf2ff"/>
+<path d="M78 98V82h7v16m5 0V74h7v24m5 0V87h7v11" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="130" y="84" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">QUANT ANALYSIS • COUNTERPARTY RISK</text>
+<text x="130" y="111" fill="#0f172a" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700">Counterparty Exposure Engine</text>
+<text x="66" y="168" fill="#0f172a" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="700">Know where exposure sits before limits are hit.</text>
+<text x="66" y="199" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="16">Netting-aware current exposure, haircut-adjusted collateral, PFE add-ons, and limit monitoring.</text>
+<rect x="66" y="230" width="332" height="94" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="86" y="260" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.1">CURRENT EXPOSURE</text>
+<text x="86" y="298" fill="#1d4ed8" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">USD 487,400</text>
+<rect x="422" y="230" width="332" height="94" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="442" y="260" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.1">PFE ESTIMATE</text>
+<text x="442" y="298" fill="#7c3aed" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">USD 2,507,400</text>
+<rect x="778" y="230" width="332" height="94" rx="16" fill="#f8fafc" stroke="#e2e8f0"/>
+<text x="798" y="260" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.1">LIMIT BREACHES</text>
+<text x="798" y="298" fill="#15803d" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">0</text>
+<text x="66" y="372" fill="#0f172a" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700">Current exposure by counterparty</text>
+<text x="66" y="397" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="13">Bar = current exposure • Marker = approved limit</text>
+<text x="80" y="461" fill="#334155" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">Northstar Bank</text>
+<rect x="350" y="447" width="550" height="18" rx="6" fill="#f1f5f9"/>
+<rect x="350" y="447" width="242.00" height="18" rx="6" fill="#2563eb"><title>Current exposure: USD 220,000</title></rect>
+<line x1="900.00" y1="442" x2="900.00" y2="470" stroke="#0f172a" stroke-width="2"><title>Limit: USD 500,000</title></line>
+<text x="1110" y="461" text-anchor="end" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">USD 220,000</text>
+<text x="80" y="503" fill="#334155" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">Harbor Capital</text>
+<rect x="350" y="489" width="550" height="18" rx="6" fill="#f1f5f9"/>
+<rect x="350" y="489" width="181.50" height="18" rx="6" fill="#2563eb"><title>Current exposure: USD 165,000</title></rect>
+<line x1="680.00" y1="484" x2="680.00" y2="512" stroke="#0f172a" stroke-width="2"><title>Limit: USD 300,000</title></line>
+<text x="1110" y="503" text-anchor="end" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">USD 165,000</text>
+<text x="80" y="545" fill="#334155" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">Meridian Markets</text>
+<rect x="350" y="531" width="550" height="18" rx="6" fill="#f1f5f9"/>
+<rect x="350" y="531" width="112.64" height="18" rx="6" fill="#2563eb"><title>Current exposure: USD 102,400</title></rect>
+<line x1="790.00" y1="526" x2="790.00" y2="554" stroke="#0f172a" stroke-width="2"><title>Limit: USD 400,000</title></line>
+<text x="1110" y="545" text-anchor="end" fill="#2563eb" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">USD 102,400</text>
+<line x1="66" y1="604" x2="1134" y2="604" stroke="#e2e8f0"/>
+<text x="66" y="627" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="12">Illustrative notional add-on • Exposure netted only within each netting set • Synthetic data</text>
+</svg>
