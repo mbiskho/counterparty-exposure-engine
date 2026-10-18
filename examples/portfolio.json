@@ -1,0 +1,96 @@
+{
+  "currency": "USD",
+  "limits": {
+    "Northstar Bank": 500000,
+    "Meridian Markets": 400000,
+    "Harbor Capital": 300000
+  },
+  "trades": [
+    {
+      "id": "NS-IRS-104",
+      "counterparty": "Northstar Bank",
+      "netting_set": "ISDA-NS-01",
+      "product": "Interest rate swaps",
+      "mtm": 420000,
+      "notional": 18000000,
+      "pfe_addon_rate": 0.02
+    },
+    {
+      "id": "NS-IRS-107",
+      "counterparty": "Northstar Bank",
+      "netting_set": "ISDA-NS-01",
+      "product": "Interest rate swaps",
+      "mtm": -115000,
+      "notional": 12000000,
+      "pfe_addon_rate": 0.02
+    },
+    {
+      "id": "NS-FX-212",
+      "counterparty": "Northstar Bank",
+      "netting_set": "ISDA-NS-02",
+      "product": "FX forwards",
+      "mtm": 95000,
+      "notional": 3500000,
+      "pfe_addon_rate": 0.05
+    },
+    {
+      "id": "MM-CDS-031",
+      "counterparty": "Meridian Markets",
+      "netting_set": "CSA-MM-01",
+      "product": "Credit derivatives",
+      "mtm": 265000,
+      "notional": 8500000,
+      "pfe_addon_rate": 0.05
+    },
+    {
+      "id": "MM-FX-018",
+      "counterparty": "Meridian Markets",
+      "netting_set": "CSA-MM-01",
+      "product": "FX options",
+      "mtm": -45000,
+      "notional": 5000000,
+      "pfe_addon_rate": 0.06
+    },
+    {
+      "id": "HC-IRS-009",
+      "counterparty": "Harbor Capital",
+      "netting_set": "CSA-HC-01",
+      "product": "Interest rate swaps",
+      "mtm": 180000,
+      "notional": 10000000,
+      "pfe_addon_rate": 0.02
+    },
+    {
+      "id": "HC-EQ-006",
+      "counterparty": "Harbor Capital",
+      "netting_set": "CSA-HC-01",
+      "product": "Equity options",
+      "mtm": 60000,
+      "notional": 4000000,
+      "pfe_addon_rate": 0.08
+    }
+  ],
+  "collateral": [
+    {
+      "id": "NS-CASH-01",
+      "counterparty": "Northstar Bank",
+      "netting_set": "ISDA-NS-01",
+      "amount": 180000,
+      "haircut": 0
+    },
+    {
+      "id": "MM-GOVT-02",
+      "counterparty": "Meridian Markets",
+      "netting_set": "CSA-MM-01",
+      "amount": 120000,
+      "haircut": 0.02
+    },
+    {
+      "id": "HC-CASH-03",
+      "counterparty": "Harbor Capital",
+      "netting_set": "CSA-HC-01",
+      "amount": 75000,
+      "haircut": 0
+    }
+  ]
+}
